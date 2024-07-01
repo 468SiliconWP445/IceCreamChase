@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.53/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.2.2","target":"arcade","targetVersion":"1.12.53","repo":"468siliconwp445/icecreamchase"}
-// total=1731649 new=5.48% cached=89.47% other=5.05%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.53/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.2.3","target":"arcade","targetVersion":"1.12.53","repo":"468siliconwp445/icecreamchase"}
+// total=1731650 new=5.48% cached=89.47% other=5.05%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -532,7 +532,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P76575(s) {
+function _main___P76850(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -983,23 +983,23 @@ switch (step) {
     s.callLocIdx = 74; s.pc = 43; return s.tmp_0;
   case 43:
     r0 = s.retval;
-    globals.mySprite___76398 = (r0);
+    globals.mySprite___76673 = (r0);
     s.tmp_0 = Sprite_setScale__P47841_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___76398;
+    s.tmp_0.arg0 = globals.mySprite___76673;
     s.tmp_0.arg1 = 0.475;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 75; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
     s.tmp_0 = controller_moveSprite__P47576_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___76398;
+    s.tmp_0.arg0 = globals.mySprite___76673;
     s.tmp_0.arg1 = 30;
     s.tmp_0.arg2 = 30;
     s.callLocIdx = 76; s.pc = 46; return s.tmp_0;
   case 46:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P47826_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___76398;
+    s.tmp_0.arg0 = globals.mySprite___76673;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 77; s.pc = 47; return s.tmp_0;
   case 47:
@@ -1015,35 +1015,35 @@ switch (step) {
     s.callLocIdx = 79; s.pc = 48; return s.tmp_0;
   case 48:
     r0 = s.retval;
-    globals.mySprite2___76411 = (r0);
+    globals.mySprite2___76686 = (r0);
     s.tmp_0 = Sprite_setScale__P47841_mk(s);
-    s.tmp_0.arg0 = globals.mySprite2___76411;
+    s.tmp_0.arg0 = globals.mySprite2___76686;
     s.tmp_0.arg1 = 0.425;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 80; s.pc = 50; return s.tmp_0;
   case 50:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P47826_mk(s);
-    s.tmp_0.arg0 = globals.mySprite2___76411;
+    s.tmp_0.arg0 = globals.mySprite2___76686;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 81; s.pc = 51; return s.tmp_0;
   case 51:
     r0 = s.retval;
     s.tmp_0 = Sprite_setBounceOnWall__P47827_mk(s);
-    s.tmp_0.arg0 = globals.mySprite2___76411;
+    s.tmp_0.arg0 = globals.mySprite2___76686;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 82; s.pc = 52; return s.tmp_0;
   case 52:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P47818_mk(s);
-    s.tmp_0.arg0 = globals.mySprite2___76411;
+    s.tmp_0.arg0 = globals.mySprite2___76686;
     s.tmp_0.arg1 = 142;
     s.tmp_0.arg2 = 104;
     s.callLocIdx = 83; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
     s.tmp_0 = Sprite_setVelocity__P47819_mk(s);
-    s.tmp_0.arg0 = globals.mySprite2___76411;
+    s.tmp_0.arg0 = globals.mySprite2___76686;
     s.tmp_0.arg1 = 50;
     s.tmp_0.arg2 = 50;
     s.callLocIdx = 84; s.pc = 54; return s.tmp_0;
@@ -1060,35 +1060,35 @@ switch (step) {
     s.callLocIdx = 86; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
-    globals.mySprite3___76428 = (r0);
+    globals.mySprite3___76703 = (r0);
     s.tmp_0 = Sprite_setScale__P47841_mk(s);
-    s.tmp_0.arg0 = globals.mySprite3___76428;
+    s.tmp_0.arg0 = globals.mySprite3___76703;
     s.tmp_0.arg1 = 0.425;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 87; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P47826_mk(s);
-    s.tmp_0.arg0 = globals.mySprite3___76428;
+    s.tmp_0.arg0 = globals.mySprite3___76703;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 88; s.pc = 58; return s.tmp_0;
   case 58:
     r0 = s.retval;
     s.tmp_0 = Sprite_setBounceOnWall__P47827_mk(s);
-    s.tmp_0.arg0 = globals.mySprite3___76428;
+    s.tmp_0.arg0 = globals.mySprite3___76703;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 89; s.pc = 59; return s.tmp_0;
   case 59:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P47818_mk(s);
-    s.tmp_0.arg0 = globals.mySprite3___76428;
+    s.tmp_0.arg0 = globals.mySprite3___76703;
     s.tmp_0.arg1 = 30;
     s.tmp_0.arg2 = 20;
     s.callLocIdx = 90; s.pc = 60; return s.tmp_0;
   case 60:
     r0 = s.retval;
     s.tmp_0 = Sprite_setVelocity__P47819_mk(s);
-    s.tmp_0.arg0 = globals.mySprite3___76428;
+    s.tmp_0.arg0 = globals.mySprite3___76703;
     s.tmp_0.arg1 = 50;
     s.tmp_0.arg2 = 50;
     s.callLocIdx = 91; s.pc = 61; return s.tmp_0;
@@ -1105,57 +1105,57 @@ switch (step) {
     s.callLocIdx = 93; s.pc = 62; return s.tmp_0;
   case 62:
     r0 = s.retval;
-    globals.mySprite4___76445 = (r0);
+    globals.mySprite4___76720 = (r0);
     s.tmp_0 = Sprite_setScale__P47841_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = 0.425;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 94; s.pc = 64; return s.tmp_0;
   case 64:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P47826_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 95; s.pc = 65; return s.tmp_0;
   case 65:
     r0 = s.retval;
     s.tmp_0 = Sprite_setBounceOnWall__P47827_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 96; s.pc = 66; return s.tmp_0;
   case 66:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P47818_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = 51;
     s.tmp_0.arg2 = 75;
     s.callLocIdx = 97; s.pc = 67; return s.tmp_0;
   case 67:
     r0 = s.retval;
     s.tmp_0 = Sprite_setVelocity__P47819_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = 50;
     s.tmp_0.arg2 = 50;
     s.callLocIdx = 98; s.pc = 68; return s.tmp_0;
   case 68:
     r0 = s.retval;
     s.tmp_0 = game_onUpdate__P48432_mk(s);
-    s.tmp_0.arg0 = inline__P76462;
+    s.tmp_0.arg0 = inline__P76737;
     s.callLocIdx = 102; s.pc = 69; return s.tmp_0;
   case 69:
     r0 = s.retval;
     s.tmp_0 = game_onUpdate__P48432_mk(s);
-    s.tmp_0.arg0 = inline__P76472;
+    s.tmp_0.arg0 = inline__P76747;
     s.callLocIdx = 106; s.pc = 70; return s.tmp_0;
   case 70:
     r0 = s.retval;
     s.tmp_0 = game_onUpdate__P48432_mk(s);
-    s.tmp_0.arg0 = inline__P76482;
+    s.tmp_0.arg0 = inline__P76757;
     s.callLocIdx = 111; s.pc = 71; return s.tmp_0;
   case 71:
     r0 = s.retval;
     s.tmp_0 = game_onUpdate__P48432_mk(s);
-    s.tmp_0.arg0 = inline__P76491;
+    s.tmp_0.arg0 = inline__P76766;
     s.callLocIdx = 122; s.pc = 72; return s.tmp_0;
   case 72:
     r0 = s.retval;
@@ -1163,13 +1163,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P76575.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P76575.continuations = [  ]
+_main___P76850.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P76850.continuations = [  ]
 
-function _main___P76575_mk(s) {
+function _main___P76850_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P76575, depth: s.depth + 1,
+        parent: s, fn: _main___P76850, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1897,7 +1897,7 @@ function myTiles_inline__P71557_mk(s) {
 
 
 
-function inline__P76462(s) {
+function inline__P76737(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1908,8 +1908,8 @@ switch (step) {
   case 0:
 
     s.tmp_1 = Sprite_overlapsWith__P47829_mk(s);
-    s.tmp_1.arg0 = globals.mySprite___76398;
-    s.tmp_1.arg1 = globals.mySprite2___76411;
+    s.tmp_1.arg0 = globals.mySprite___76673;
+    s.tmp_1.arg1 = globals.mySprite2___76686;
     s.callLocIdx = 99; s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1917,7 +1917,7 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P47686_mk(s);
-    s.tmp_2.arg0 = globals.mySprite2___76411;
+    s.tmp_2.arg0 = globals.mySprite2___76686;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 100; s.pc = 4; return s.tmp_2;
@@ -1934,12 +1934,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P76462.info = {"start":982,"length":130,"line":23,"column":14,"endLine":28,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P76737.info = {"start":982,"length":130,"line":23,"column":14,"endLine":28,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P76462_mk(s) {
+function inline__P76737_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P76462, depth: s.depth + 1,
+        parent: s, fn: inline__P76737, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1950,7 +1950,7 @@ function inline__P76462_mk(s) {
 
 
 
-function inline__P76472(s) {
+function inline__P76747(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1961,8 +1961,8 @@ switch (step) {
   case 0:
 
     s.tmp_1 = Sprite_overlapsWith__P47829_mk(s);
-    s.tmp_1.arg0 = globals.mySprite___76398;
-    s.tmp_1.arg1 = globals.mySprite3___76428;
+    s.tmp_1.arg0 = globals.mySprite___76673;
+    s.tmp_1.arg1 = globals.mySprite3___76703;
     s.callLocIdx = 103; s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1970,7 +1970,7 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P47686_mk(s);
-    s.tmp_2.arg0 = globals.mySprite3___76428;
+    s.tmp_2.arg0 = globals.mySprite3___76703;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 104; s.pc = 4; return s.tmp_2;
@@ -1987,12 +1987,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P76472.info = {"start":1128,"length":130,"line":29,"column":14,"endLine":34,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P76747.info = {"start":1128,"length":130,"line":29,"column":14,"endLine":34,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P76472_mk(s) {
+function inline__P76747_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P76472, depth: s.depth + 1,
+        parent: s, fn: inline__P76747, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2003,7 +2003,7 @@ function inline__P76472_mk(s) {
 
 
 
-function inline__P76482(s) {
+function inline__P76757(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2018,7 +2018,7 @@ switch (step) {
   case 3:
     r0 = s.retval;
     s.tmp_1 = r0;
-    r0 = (s.tmp_1 == 50);
+    r0 = (s.tmp_1 == 100);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
@@ -2045,12 +2045,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P76482.info = {"start":1274,"length":184,"line":35,"column":14,"endLine":41,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P76757.info = {"start":1274,"length":185,"line":35,"column":14,"endLine":41,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P76482_mk(s) {
+function inline__P76757_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P76482, depth: s.depth + 1,
+        parent: s, fn: inline__P76757, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2062,7 +2062,7 @@ function inline__P76482_mk(s) {
 
 
 
-function inline__P76491(s) {
+function inline__P76766(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2073,8 +2073,8 @@ switch (step) {
   case 0:
 
     s.tmp_1 = Sprite_overlapsWith__P47829_mk(s);
-    s.tmp_1.arg0 = globals.mySprite___76398;
-    s.tmp_1.arg1 = globals.mySprite4___76445;
+    s.tmp_1.arg0 = globals.mySprite___76673;
+    s.tmp_1.arg1 = globals.mySprite4___76720;
     s.callLocIdx = 112; s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -2082,7 +2082,7 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = sprites_destroy__P47686_mk(s);
-    s.tmp_2.arg0 = globals.mySprite4___76445;
+    s.tmp_2.arg0 = globals.mySprite4___76720;
     s.tmp_2.arg1 = undefined;
     s.tmp_2.arg2 = undefined;
     s.callLocIdx = 113; s.pc = 4; return s.tmp_2;
@@ -2104,35 +2104,35 @@ switch (step) {
     s.callLocIdx = 116; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.mySprite4___76445 = (r0);
+    globals.mySprite4___76720 = (r0);
     s.tmp_0 = Sprite_setScale__P47841_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = 0.425;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 117; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P47826_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 118; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = Sprite_setBounceOnWall__P47827_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 119; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P47818_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = 51;
     s.tmp_0.arg2 = 75;
     s.callLocIdx = 120; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     s.tmp_0 = Sprite_setVelocity__P47819_mk(s);
-    s.tmp_0.arg0 = globals.mySprite4___76445;
+    s.tmp_0.arg0 = globals.mySprite4___76720;
     s.tmp_0.arg1 = 50;
     s.tmp_0.arg2 = 50;
     s.callLocIdx = 121; s.pc = 12; return s.tmp_0;
@@ -2144,12 +2144,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P76491.info = {"start":1474,"length":424,"line":42,"column":14,"endLine":53,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P76766.info = {"start":1475,"length":424,"line":42,"column":14,"endLine":53,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P76491_mk(s) {
+function inline__P76766_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P76491, depth: s.depth + 1,
+        parent: s, fn: inline__P76766, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -58866,7 +58866,7 @@ const sprites_BaseSpriteSayRenderer__C47668_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["transparency16___71553","mySprite___76398","mySprite2___76411","mySprite3___76428","mySprite4___76445"])
+const breakpoints = setupDebugger(1, ["transparency16___71553","mySprite___76673","mySprite2___76686","mySprite3___76703","mySprite4___76720"])
 
-return _main___P76575
+return _main___P76850
 })
