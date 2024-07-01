@@ -1,4 +1,4 @@
- 
+This project is about a sprite who attempts to chase ice cream. The more the sprite eats, the higher the score.  
 
 
 > Open this page at [https://468siliconwp445.github.io/icecreamchase/](https://468siliconwp445.github.io/icecreamchase/)
