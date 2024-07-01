@@ -34,7 +34,7 @@ game.onUpdate(function () {
     }
 })
 game.onUpdate(function () {
-    if (info.score() == 3) {
+    if (info.score() == 12) {
         game.gameOver(true)
         game.setGameOverEffect(true, effects.confetti)
         game.setGameOverMessage(true, "You Won!")
