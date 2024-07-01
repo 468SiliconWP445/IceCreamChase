@@ -1,7 +1,7 @@
 info.setScore(0)
 let mySprite = sprites.create(assets.image`idplayerspritecar0`, SpriteKind.Player)
 mySprite.setScale(0.475, ScaleAnchor.Middle)
-controller.moveSprite(mySprite, 30, 30)
+controller.moveSprite(mySprite, 100, 100)
 mySprite.setStayInScreen(true)
 let mySprite2 = sprites.create(assets.image`idasset-icecream`, SpriteKind.Food)
 mySprite2.setScale(0.425, ScaleAnchor.Middle)
@@ -34,7 +34,7 @@ game.onUpdate(function () {
     }
 })
 game.onUpdate(function () {
-    if (info.score() == 1e+31) {
+    if (info.score() == 50) {
         game.gameOver(true)
         game.setGameOverEffect(true, effects.confetti)
         game.setGameOverMessage(true, "You Won!")
